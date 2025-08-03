@@ -2,7 +2,7 @@ name: Daily API Hit
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # रोजाना 3:00 AM IST (21:30 UTC)
+    - cron: '30 23 * * *'  # रोजाना 3:00 AM IST (21:30 UTC)
   workflow_dispatch:       # Manual trigger option भी रहेगा
 
 jobs:
