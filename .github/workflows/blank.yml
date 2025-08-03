@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: Call API
         run: |
-          curl -X POST "https://services.zilastore.com/api/seller/InsertZilaKPIInElasticDaily" \
+          curl -X Get "https://services.zilastore.com/api/seller/InsertZilaKPIInElasticDaily" \
           -H "Content-Type: application/json" \
           -d '{}'
